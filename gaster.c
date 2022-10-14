@@ -1046,6 +1046,7 @@ main(int argc, char **argv) {
 		if(gaster_checkm8(&handle)) {
 			ret = 0;
 		}
+		}
 	else if(argc == 2 && strcmp(argv[1], "reset") == 0) {
         	if(gaster_reset(&handle)) {
             	ret = 0;
